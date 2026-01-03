@@ -1,138 +1,120 @@
-# Customer_Behaviour_Analysis
+📊 Customer Shopping Behavior Analysis
+📌 Project Overview
 
-📊 Data Analytics Project – End-to-End Analysis
-📌 Overview
+This project analyzes customer shopping behavior using transactional data from 3,900 purchases to uncover insights into spending patterns, customer segments, product preferences, and subscription behavior. The goal is to support data-driven business decision-making.
 
-This project demonstrates an end-to-end data analytics workflow, covering data loading, cleaning, analysis, SQL querying, and dashboard creation. The goal is to extract meaningful insights from raw data and present them through an interactive Power BI dashboard for data-driven decision-making.
+🎯 Objectives
 
-📁 Dataset
+Understand customer demographics and purchasing patterns
 
-The dataset is loaded using Python
+Identify high-spending and loyal customer segments
 
-Contains structured data suitable for analysis and reporting
+Analyze product performance and review ratings
 
-Data preprocessing includes handling missing values, duplicates, and data type corrections
+Compare revenue and behavior across different customer groups
 
-🛠️ Tools & Technologies
+Provide actionable business recommendations
 
-Python – Data loading, cleaning, and analysis
+📂 Dataset
 
-Pandas & NumPy – Data manipulation
+Rows: 3,900
 
-EDA (Exploratory Data Analysis) – Understanding patterns and trends
+Columns: 18
 
-PostgreSQL / MySQL / SQL Server – SQL queries and data storage
+Key Features:
 
-SQL – Data extraction, joins, aggregations, and filtering
+Customer demographics (Age, Gender, Location, Subscription Status)
 
-Power BI – Interactive dashboard and visualization
+Purchase details (Item, Category, Amount, Season, Size, Color)
 
-🔄 Project Workflow /
-Steps
-1️⃣ Data Loading
+Shopping behavior (Discount, Promo Code, Frequency, Review Rating, Shipping Type)
 
-Imported the dataset using Python
+Missing values in the Review Rating column were handled during data cleaning.
 
-Verified schema and data types
+🛠 Tools & Technologies
 
-2️⃣ Data Cleaning
+Python (Pandas, NumPy, Matplotlib, Seaborn)
 
-Removed duplicates
+SQL (PostgreSQL)
 
-Handled missing and null values
+Power BI
 
-Standardized columns and formats
+Jupyter Notebook
 
-3️⃣ Exploratory Data Analysis (EDA)
+Git & GitHub
 
-Identified trends, distributions, and outliers
+🔍 Exploratory Data Analysis (EDA)
 
-Generated summary statistics
+EDA was performed using Python and included:
 
-Validated data quality before SQL ingestion
+Data loading and initial inspection
 
-4️⃣ SQL Analysis
+Handling missing values using median imputation
 
-Loaded cleaned data into SQL database
+Column standardization for readability
 
-Executed SQL queries including:
+Feature engineering (age groups, purchase frequency)
 
-SELECT, WHERE, GROUP BY
+Data consistency checks
 
-JOINS
+Database integration with PostgreSQL
 
-Aggregations
+🧮 SQL Analysis
 
-KPI calculations
+Structured SQL queries were used to answer key business questions:
 
-5️⃣ Power BI Dashboard
+Revenue comparison by gender
 
-Connected Power BI to SQL database
+Identification of high-spending discount users
 
-Built interactive visuals such as:
+Top-rated and most-purchased products
 
-KPI cards
+Comparison of Standard vs Express shipping
 
-Bar charts
+Subscriber vs non-subscriber behavior
 
-Donut charts
+Customer segmentation (New, Returning, Loyal)
 
-Trend analysis
+📊 Power BI Dashboard
 
-Applied consistent color themes and filters for clarity
+An interactive Power BI dashboard was created to visualize:
 
-📈 Dashboard
+Key KPIs and customer metrics
 
-The Power BI dashboard provides:
+Revenue and spending trends
 
-Key performance indicators (KPIs)
+Product and customer segmentation insights
 
-Trend analysis
+This dashboard enables stakeholders to explore insights dynamically.
 
-Category-wise and time-based insights
+💡 Business Recommendations
 
-User-friendly filters and slicers
+Promote subscriptions to increase recurring revenue
 
-📊 Results & Insights
+Introduce customer loyalty programs
 
-Identified key patterns and trends in the dataset
+Balance discount strategies with profit margins
 
-Highlighted high-performing and low-performing segments
+Highlight top-rated and best-selling products
 
-Delivered actionable insights through visual storytelling
+Use targeted marketing for high-revenue customer segments
 
-▶️ How to Run the Project
-Prerequisites
+📄 Project Presentation
 
-Python 3.x
+📄 PDF Presentation: docs/Customer_Shopping_Behavior_Analysis.pdf
+This presentation provides a complete visual summary of the analysis, insights, dashboard, and recommendations.
 
-PostgreSQL / MySQL / SQL Server
+🚀 Future Enhancements
 
-Power BI Desktop
+Add predictive modeling for customer churn
 
-Steps
+Automate ETL pipeline
 
-Clone the repository
+Deploy dashboard online
 
-Install required Python libraries:
+Perform cohort and RFM analysis
 
-pip install pandas numpy sqlalchemy
+📌 Author
 
-
-Run Python scripts for data cleaning and EDA
-
-Load cleaned data into SQL database
-
-Execute SQL queries
-
-Open the Power BI file and refresh data
-
-🎯 Key Takeaways
-
-Demonstrates real-world data analytics workflow
-
-Strong focus on SQL + Python integration
-
-Business-focused dashboard design
-
-Recruiter-ready project showcasing practical skills
+Vaibhav Mule
+Data Analyst | Python | SQL | Power BI
