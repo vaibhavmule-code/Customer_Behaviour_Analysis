@@ -27,7 +27,8 @@ SQL – Data extraction, joins, aggregations, and filtering
 
 Power BI – Interactive dashboard and visualization
 
-🔄 Project Workflow / Steps
+🔄 Project Workflow /
+Steps
 1️⃣ Data Loading
 
 Imported the dataset using Python
